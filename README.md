@@ -61,9 +61,9 @@
 
 ### Raspberry Pi
 - Raspberry Pi下建立一個新資料夾
-   ```
+```
    sudo mkdir Pifm
-   ```
+```
 
 ## 操作教學
   1. 在raspberry pi底下輸入下載檔案
