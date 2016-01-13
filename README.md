@@ -81,10 +81,6 @@ tar zxvf ../Pifm.tar.gz
 ```
 sudo ./pifm sound.wav
 ```
- - *
- - *
- - *
-
 
 ## 工作分配表
   - 天線製作：琨柏
