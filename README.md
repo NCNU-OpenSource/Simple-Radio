@@ -12,3 +12,74 @@
   實作嘗試使用 Raspberry Pi 實作小小廣播電台，放置在家中，給家中的人都可以聆聽。
 
 ## 實作材料
+| 材料名稱 | 取得來源 | 價格 |
+| --- | --- | ---: |
+| Raspberry Pi | 課堂提供  | NT$0 |
+| 電料線材    |展瑩贊助     | NT$0 |
+| webcam      |茂權贊助      | NT$0 |
+| 杜邦線      |金華電子零件  | NT$75|
+| 收音機      |全國電子      | NT$350|  
+|焊接設備      |MOLi | NT$0  |
+|熱縮套       |五金行       | NT$25 |
+
+
+## 使用的現有軟體與來源
+  - raspberry pi 廣播設定與下載
+    - http://gsyan888.blogspot.tw/2013/03/raspberry-pi-pifm-fm-transmitter.html
+    - 
+  - Turning the Raspberry Pi Into an FM Transmitter
+    - http://www.icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter
+  -標題為Microphone 部分，設定麥克風
+    https://wolfpaulus.com/journal/embedded/raspberrypi2-sr/
+
+## 實作過程（碰到哪些問題、如何解決）
+  - 一開始的發想購買零件路途坎坷
+  - Raspberry Pi一直當機，網路環境不好
+  - 無法上網，網路環境設定很久
+  - 安裝檔案後執行錯誤無法修復，重灌Raspberry Pi
+  - 麥克風有執行卻無法錄音
+  - 收音音頻訊號不好(接收範圍只有10cm)
+  - 錄音變狂派音了...
+
+## 運用哪些與課程內容中相關的技巧
+  - Linux 基本觀念和指令
+  - 接網路線，檢查網路設定
+  - 製作天線解決訊號問題
+
+## 組裝過程及製作教學
+
+### 天線
+  1. 先拿取到一條AWG線（約12~18mm）
+  2. 把一條母頭的杜邦線剪斷，留下母頭部分並留約一公分長度的線絲
+  3. 用和接棒把AWG線與杜邦線母頭的線絲焊接
+  4. 等待焊接點降溫以後，使用熱縮套把焊接觸進行連接
+
+### 收音機
+  1.打開收音機
+  2.轉到所設置的頻道
+  3.開始收聽播放音樂
+
+### Raspberry Pi
+  1.Raspberry Pi下建立一個新資料夾
+     ```
+    sudo mkdir Pifm
+    ```
+
+## 操作教學
+  1. 在raspberry pi底下輸入下載檔案
+  ˋˋˋwget http://www.icrobotics.co.uk/wiki/images/c/c3/Pifm.tar.gz ˋˋˋ
+  2.建立一個新的目錄（Pifm）並移到目錄底下，解壓縮
+  ˋˋˋmkdir Pifm
+    cd Pifm
+    tar zxvf ../Pifm.tar.gz
+  ˋˋˋ
+  3.執行播放程序
+    ˋˋˋsudo ./pifm sound.wav ˋˋˋ
+## 工作分配表
+  - 天線製作：琨柏
+  - 軟體設定與環境建置：琨柏、俞蓁
+  - 簡報製作、報告：琨柏、俞蓁
+  - 文件製作：琨柏、俞蓁
+  - 過程鼓勵與幫助師：BlueT、李悅、展瑩
+
+
