@@ -61,7 +61,7 @@
 
 ### Raspberry Pi
   1.Raspberry Pi下建立一個新資料夾<br>
-  sudo mkdir Pifm<br>
+    sudo mkdir Pifm <br>
   </br>
 
 ## 操作教學
