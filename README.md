@@ -67,9 +67,9 @@ sudo mkdir Pifm
 
 ## 操作教學
   1. 在raspberry pi底下輸入下載檔案
-```
-wget http://www.icrobotics.co.uk/wiki/images/c/c3/Pifm.tar.gz
-```
+  ```
+  wget http://www.icrobotics.co.uk/wiki/images/c/c3/Pifm.tar.gz
+  ```
   2. 建立一個新的目錄（Pifm）並移到目錄底下，解壓縮
 ```
 mkdir Pifm
