@@ -60,28 +60,31 @@
     3.開始收聽播放音樂
 
 ### Raspberry Pi
-    1.Raspberry Pi下建立一個新資料夾
-     sudo mkdir Pifm
+  1.Raspberry Pi下建立一個新資料夾
+```
+sudo mkdir Pifm
+```
 
 ## 操作教學
-    1.在raspberry pi底下輸入下載檔案
-    ```
-     wget http://www.icrobotics.co.uk/wiki/images/c/c3/Pifm.tar.gz
-    ```
-    2.建立一個新的目錄（Pifm）並移到目錄底下，解壓縮
-    ```
-     mkdir Pifm
-     cd Pifm
-     tar zxvf ../Pifm.tar.gz
-    ```
-    3.執行播放程序
-    ```
-     sudo ./pifm sound.wav
-    ```
+  1.在raspberry pi底下輸入下載檔案
+```
+wget http://www.icrobotics.co.uk/wiki/images/c/c3/Pifm.tar.gz
+```
+  2.建立一個新的目錄（Pifm）並移到目錄底下，解壓縮
+```
+mkdir Pifm
+cd Pifm
+tar zxvf ../Pifm.tar.gz
+```
+  3.執行播放程序
+```
+sudo ./pifm sound.wav
+```
+
 ## 工作分配表
-  - 天線製作：琨柏
-  - 軟體設定與環境建置：琨柏、俞蓁
-  - 簡報製作、報告：琨柏、俞蓁
-  - 文件製作：琨柏、俞蓁
-  - 過程鼓勵與幫助師：BlueT、李悅、展瑩
+    - 天線製作：琨柏
+    - 軟體設定與環境建置：琨柏、俞蓁
+    - 簡報製作、報告：琨柏、俞蓁
+    - 文件製作：琨柏、俞蓁
+    - 過程鼓勵與幫助師：BlueT、李悅、展瑩
 
