@@ -29,7 +29,8 @@
 
   - Turning the Raspberry Pi Into an FM Transmitter
    - http://www.icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter
-  -標題為Microphone 部分，設定麥克風
+
+  - 標題為Microphone部分，設定麥克風
    - https://wolfpaulus.com/journal/embedded/raspberrypi2-sr/
 
 ## 實作過程（碰到哪些問題、如何解決）
@@ -47,22 +48,20 @@
   - 製作天線解決訊號問題
 
 ## 組裝過程及製作教學
-
 ### 天線
-  1. 先拿取到一條AWG線（約12~18mm）
-  2. 把一條母頭的杜邦線剪斷，留下母頭部分並留約一公分長度的線絲
-  3. 用和接棒把AWG線與杜邦線母頭的線絲焊接
-  4. 等待焊接點降溫以後，使用熱縮套把焊接觸進行連接
+    1. 先拿取到一條AWG線（約12~18mm）
+    2. 把一條母頭的杜邦線剪斷，留下母頭部分並留約一公分長度的線絲
+    3. 用和接棒把AWG線與杜邦線母頭的線絲焊接
+    4. 等待焊接點降溫以後，使用熱縮套把焊接觸進行連接
 
 ### 收音機
-  1.打開收音機
-  2.轉到所設置的頻道
-  3.開始收聽播放音樂
+    1.打開收音機
+    2.轉到所設置的頻道
+    3.開始收聽播放音樂
 
 ### Raspberry Pi
-  1.Raspberry Pi下建立一個新資料夾<br>
-    sudo mkdir Pifm <br>
-  </br>
+  1.Raspberry Pi下建立一個新資料夾
+    sudo mkdir Pifm
 
 ## 操作教學
   1. 在raspberry pi底下輸入下載檔案
