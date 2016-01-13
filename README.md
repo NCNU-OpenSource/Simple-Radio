@@ -25,12 +25,12 @@
 
 ## 使用的現有軟體與來源
   - raspberry pi 廣播設定與下載
-    - http://gsyan888.blogspot.tw/2013/03/raspberry-pi-pifm-fm-transmitter.html
-    - 
+   - http://gsyan888.blogspot.tw/2013/03/raspberry-pi-pifm-fm-transmitter.html
+
   - Turning the Raspberry Pi Into an FM Transmitter
-    - http://www.icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter
+   - http://www.icrobotics.co.uk/wiki/index.php/Turning_the_Raspberry_Pi_Into_an_FM_Transmitter
   -標題為Microphone 部分，設定麥克風
-    https://wolfpaulus.com/journal/embedded/raspberrypi2-sr/
+   - https://wolfpaulus.com/journal/embedded/raspberrypi2-sr/
 
 ## 實作過程（碰到哪些問題、如何解決）
   - 一開始的發想購買零件路途坎坷
